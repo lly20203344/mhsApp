@@ -1,0 +1,139 @@
+.HomeHeader {
+    position: relative;
+    height: 200px;
+    background: url(../../assets/images/Myfans/bg3.png);
+    background-size: 100% 100%;
+    .mint-header {
+        height: 4rem;
+        line-height: 4rem;
+        background-color: transparent !important;
+        font-size: 16px;
+        color: #333;
+    }
+    .HomeTop {
+        position: absolute;
+        left: 10%;
+        top: 26%;
+        color: #744a34;
+    }
+    p {
+        margin: .2rem;
+    }
+    h2 {
+        font-weight: 500;
+        padding-left: .4rem;
+    }
+    h3 {
+        display: inline-block;
+        font-weight: 200;
+        margin-top: 1rem;
+        padding-left: .4rem;
+    }
+    b {
+        font-size: 40px;
+        font-weight: 500;
+        padding-bottom: .3rem;
+    }
+}
+
+.main-body {
+    height: 500px;
+    /* 加上这个才会有当数据充满整个屏幕，可以进行上拉加载更多的操作 */
+    overflow: scroll;
+}
+
+.forum-box {
+    .forum-box_span {
+        text-align: center;
+    }
+    ul {
+        width: 100%;
+        li {
+            list-style: none;
+            display: flex;
+            border-bottom: 1px solid #eee;
+            padding: 1rem;
+            b {
+                font-weight: 100;
+                padding-right: .8rem;
+            }
+            span {
+                flex: 1;
+            }
+        }
+    }
+}
+
+.HomeCenten {
+    position: absolute;
+    top: 204px;
+    width: 100%;
+    left: 0;
+    bottom: 49px;
+    overflow: auto;
+    .fans_data {
+        padding: 1rem;
+        .fans_data_box-center_span {
+            text-align: right;
+        }
+        b {
+            font-weight: 300;
+            padding-right: 1rem;
+        }
+        p {
+            display: flex;
+            font-size: 16px;
+            height: 2rem;
+            span {
+                flex: 1;
+            }
+        }
+    }
+}
+
+.HomeCenten_bottom {
+    margin-top: 1rem;
+    .mint-cell-wrapper {
+        padding-left: 1rem;
+        border-bottom: 1px solid #e4e4e4;
+    }
+    img {
+        width: 1.8rem;
+    }
+    a {
+        color: #333;
+    }
+    b {
+        color: #333;
+        position: absolute;
+        left: 32%;
+        font-weight: normal;
+    }
+    span {
+        img {
+            width: 1.3rem;
+        }
+    }
+}
+
+.HomeBottom {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    height: 49px;
+    line-height: 49px;
+    width: 100%;
+    text-align: center;
+    display: flex;
+    color: #fff;
+    font-size: 16px;
+    .HomeBottom_left {
+        background: #e4362d
+    }
+    .HomeBottom_right {
+        background: #dd9622
+    }
+    span {
+        flex: 1;
+    }
+}
